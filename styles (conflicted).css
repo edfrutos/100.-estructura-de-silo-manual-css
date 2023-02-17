@@ -1,0 +1,138 @@
+body {
+  width: 100vw;
+  height: auto;
+  margin: auto;
+  font-size: 16px;
+  background-color: #f2f2f2;
+}
+header {
+  background-color: rgb(10,117,210);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px ; /*ALTURA_DESEADA*/
+  padding: 20px;
+}
+
+main {
+  width: 50vw;
+  margin: auto;
+  background-color: #fff;
+  font-size: 18px;
+  padding: 2vh 5vw 2vh 5vw;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  height: 30px ; /*ALTURA_DESEADA*/
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+
+}
+#menu {
+  width:100%;
+  align-items: center;
+  background-color: aqua;
+  padding-left: 500px;
+}
+nav ul {
+  
+  list-style: none;
+  display: flex;
+  justify-content: space-between ;
+}
+
+nav li {
+  display: inline-block;
+}
+nav a{
+  width: 15vw;
+  color: #000000; /* establecer un color para el texto del enlace*/
+  text-decoration: none; /* eliminar la decoración predeterminada del enlace*/
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px; /* establecer un tamaño de fuente para el texto del enlace */
+  font-weight: 600; 
+}
+/* Probando para centrar el menu
+nav a {
+  display: block; /* hacer que los enlaces ocupen todo el ancho de su elemento padre 
+  margin-left: 70px;
+  padding: 14px 16px; /* añadir espacios alrededor del texto del enlace 
+  text-decoration: none; /* eliminar subrayado predeterminado del enlace 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17px; /* establecer un tamaño de fuente para el texto del enlace 
+  font-weight: 600;
+  color: #000000; /* establecer un color para el texto del enlace
+}
+*/
+
+ul,
+ol,
+li {
+  text-align: justify;
+  /*Justificar el texto*/
+  width: 45vw;
+  /*NUMERO_DE_CARACTERES_DESEADOS*/
+  word-wrap: break-word;
+  /*romper las palabras para ajustarlas al ancho*/
+}
+li {
+  hyphens: auto;
+  /*activar el corte de palabras*/
+  max-width: 700px;
+  /*definir un ancho máximo para cada línea*/
+}
+p {
+  text-align: justify;
+  width: 45vw;
+  /*NUMERO_DE_CARACTERES_DESEADOS*/
+  word-wrap: break-word;
+  padding-left: 10px;
+  /*VALOR_DEL_SANGRADO*/
+}
+@media (max-width: 414px) {
+  body {
+      width: 95vw;
+  }
+  #menu {
+    width: 95vw;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+      width: 60vw;
+  }
+  #menu {
+    width: 60vw;
+  }
+}
+
+p{
+    text-align: justify;
+    /*justificar el texto*/
+    hyphens: auto;
+    /*activar el corte de palabras*/
+    word-wrap: break-word;
+    /*romper las palabras para ajustarlas al ancho*/
+    max-width: 800px;
+    /*definir un ancho máximo para cada línea*/
+}
+.encabezado {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; /* establecer un tamaño de fuente para el texto del enlace */
+    color: #000; /* establecer un color para el texto del enlace */
+    font-weight: 500;
+}
+#menu {
+  display: inline-block;
+ color: red
+}
